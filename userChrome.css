@@ -19,6 +19,10 @@ All Addons by u/It_Was_the_other_guy or @MrOtherGuy
 @import url("dark_checkboxes_and_radios.css");
 @import url("dark_additional_windows.css");
 @import url("dark_context_menus.css");
+
+@import "hide-tabbar.css";
+@import "sidebar-mods.css";
+
 /* 
 /* 
 
@@ -90,6 +94,10 @@ T A B S
 .tabbrowser-tabs {
     border: none !important;
     opacity: 0 !important;
+}
+.toolbar-items {
+    visibility: hidden !important;
+    pointer-events: none !important;
 }
 
 .tabbrowser-tab::before {
