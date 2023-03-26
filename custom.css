@@ -20,3 +20,9 @@
   background-color: var(--urlbar-bgcolor) !important;
   border-radius: 4px;
 }
+
+#unified-extensions-button {
+  position: absolute !important;
+  left: 8.5rem;
+  height: 34px !important;
+}
