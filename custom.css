@@ -7,7 +7,7 @@
 
 #PanelUI-button {
   position: absolute;
-  left: 11.25rem;
+  left: 8.4rem;
   top: 4px;
 }
 
@@ -17,12 +17,10 @@
   width: 100%;
   text-align: center !important;
   padding: 0px 1rem;
-  background-color: var(--urlbar-bgcolor) !important;
+  background-color: var(--urlbar-bgcolor) !important; 
   border-radius: 4px;
 }
 
 #unified-extensions-button {
-  position: absolute !important;
-  left: 8.5rem;
-  height: 34px !important;
+  display: none !important;
 }
