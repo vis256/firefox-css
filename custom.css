@@ -17,10 +17,13 @@
   width: 100%;
   text-align: center !important;
   padding: 0px 1rem;
-  background-color: var(--urlbar-bgcolor) !important; 
+  background-color: var(--urlbar-bgcolor) !important;
   border-radius: 4px;
 }
 
 #unified-extensions-button {
-  display: none !important;
+  /* display: none !important; */
+  position: absolute;
+  left: 11rem;
+  top: 4px;
 }
