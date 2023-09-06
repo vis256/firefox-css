@@ -441,7 +441,7 @@ Main body layout
       --theme-colors-toolbar_bottom_separator,
       var(--in-content-button-background-hover-mixed)
     )
-    transparent;
+    var(--bg-color);
 }
 
 /** Container background **/
@@ -1220,4 +1220,11 @@ Hover-over sidebar layout
   #subpanel-selector-anchor::after {
     display: none !important;
   }
+}
+
+#tabbar {
+  scrollbar-color: var(
+      --theme-colors-toolbar_bottom_separator,
+      var(--in-content-button-background-hover-mixed)
+    ) var(--bg-color) !important;
 }
