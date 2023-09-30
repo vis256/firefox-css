@@ -1,14 +1,18 @@
+#navigator-toolbox {
+  height: 26px;
+}
+
 #nav-bar {
-  flex: 1 1 0%;
   justify-content: space-between;
-  width: calc(100% - 20rem);
-  flex-direction: row-reverse;
+  width: calc(100% - 138px);
+  flex-direction: row;
+  top: 2px !important;
 }
 
 #PanelUI-button {
-  position: absolute;
+  /* position: absolute;
   left: 8.4rem;
-  top: 4px;
+  top: 2px; */
 }
 
 #urlbar-input {
@@ -22,8 +26,30 @@
 }
 
 #unified-extensions-button {
-  /* display: none !important; */
-  position: absolute;
-  left: 11rem;
-  top: 4px;
+}
+
+#urlbar-container {
+  position: fixed !important;
+  left: 50%;
+  width: 1000px !important;
+  transform: translateX(-50%);
+}
+
+.titlebar-button {
+  max-height: 26px !important;
+}
+
+.toolbarbutton-1 {
+  height: 26px !important;
+  top: 0;
+  position: sticky;
+  margin-top: 2px !important;
+}
+
+#customizableui-special-spring1 {
+  display: none !important;
+}
+
+.titlebar-buttonbox-container {
+  width: 138px;
 }
