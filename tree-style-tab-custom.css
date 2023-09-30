@@ -786,7 +786,6 @@ tab-item:not(.faviconized).pinned > tab-item-substance > tab-favicon.favicon {
 
 tab-item.faviconized {
   padding: 0 !important;
-  margin-left: 8px !important;
 }
 tab-item.faviconized tab-favicon {
   margin-left: calc(
@@ -1228,4 +1227,12 @@ Hover-over sidebar layout
       --theme-colors-toolbar_bottom_separator,
       var(--in-content-button-background-hover-mixed)
     ) var(--bg-color) !important;
+}
+
+.newtab-button .extra-items-container::before {
+	line-height: 27px;
+}
+
+.newtab-button .extra-items-container::after {
+	line-height: 27px;
 }
