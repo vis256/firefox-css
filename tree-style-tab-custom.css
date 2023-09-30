@@ -786,6 +786,7 @@ tab-item:not(.faviconized).pinned > tab-item-substance > tab-favicon.favicon {
 
 tab-item.faviconized {
   padding: 0 !important;
+  margin-left: 8px !important;
 }
 tab-item.faviconized tab-favicon {
   margin-left: calc(
