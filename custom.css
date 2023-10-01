@@ -5,8 +5,8 @@
 #nav-bar {
   justify-content: space-between;
   width: calc(100% - 138px);
+  height: 28px !important;
   flex-direction: row;
-  top: 2px !important;
 }
 
 #PanelUI-button {
@@ -32,6 +32,7 @@
   position: fixed !important;
   left: 50%;
   width: 1000px !important;
+  top: 0;
   transform: translateX(-50%);
 }
 
@@ -40,10 +41,12 @@
 }
 
 .toolbarbutton-1 {
-  height: 26px !important;
+  height: 100% !important;
   top: 0;
   position: sticky;
-  margin-top: 2px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-bottom: 2px !important;
 }
 
 #customizableui-special-spring1 {
@@ -52,4 +55,12 @@
 
 .titlebar-buttonbox-container {
   width: 138px;
+}
+
+#nav-bar-customization-target {
+  height: 100%;
+}
+
+#nav-bar-customization-target > toolbaritem {
+  height: 28px !important;
 }
