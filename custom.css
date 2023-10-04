@@ -4,7 +4,7 @@
 
 #nav-bar {
   justify-content: space-between;
-  width: calc(100% - 138px);
+  width: calc(100% - 32px);
   height: 28px !important;
   flex-direction: row;
 }
@@ -54,7 +54,12 @@
 }
 
 .titlebar-buttonbox-container {
-  width: 138px;
+  width: 32px;
+}
+
+.titlebar-buttonbox-container .titlebar-buttonbox {
+  height: 28px;
+  width: 28px;
 }
 
 #nav-bar-customization-target {
@@ -64,3 +69,4 @@
 #nav-bar-customization-target > toolbaritem {
   height: 28px !important;
 }
+
