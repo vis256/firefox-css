@@ -1,14 +1,18 @@
+#navigator-toolbox {
+  height: 26px;
+}
+
 #nav-bar {
-  flex: 1 1 0%;
   justify-content: space-between;
-  width: calc(100% - 20rem);
-  flex-direction: row-reverse;
+  width: calc(100% - 138px);
+  height: 28px !important;
+  flex-direction: row;
 }
 
 #PanelUI-button {
-  position: absolute;
+  /* position: absolute;
   left: 8.4rem;
-  top: 4px;
+  top: 2px; */
 }
 
 #urlbar-input {
@@ -17,10 +21,46 @@
   width: 100%;
   text-align: center !important;
   padding: 0px 1rem;
-  background-color: var(--urlbar-bgcolor) !important; 
+  background-color: var(--urlbar-bgcolor) !important;
   border-radius: 4px;
 }
 
 #unified-extensions-button {
+}
+
+#urlbar-container {
+  position: fixed !important;
+  left: 50%;
+  width: 1000px !important;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.titlebar-button {
+  max-height: 26px !important;
+}
+
+.toolbarbutton-1 {
+  height: 100% !important;
+  top: 0;
+  position: sticky;
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-bottom: 2px !important;
+}
+
+#customizableui-special-spring1 {
   display: none !important;
+}
+
+.titlebar-buttonbox-container {
+  width: 138px;
+}
+
+#nav-bar-customization-target {
+  height: 100%;
+}
+
+#nav-bar-customization-target > toolbaritem {
+  height: 28px !important;
 }
