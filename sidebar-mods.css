@@ -22,10 +22,9 @@ See the above repository for updates as well as full license text. */
 
   margin-top: -1px;
   z-index: 9999;
-  left: 0;
+  left: calc(var(--sidebar-width) * -1 + 8px);
 
-  transform: translateX(calc(var(--sidebar-width) * -1 + 8px));
-  transition: transform var(--sidebar-animation-duration) linear !important;
+  transition: left var(--sidebar-animation-duration) ease-in-out !important;
 }
 
 #sidebar-title {
@@ -69,7 +68,7 @@ See the above repository for updates as well as full license text. */
 }
 
 #sidebar-box:hover {
-  transform: translateX(0px) !important;
+  left: 0 !important;
 }
 
 #sidebar-box:hover > #sidebar-header {
