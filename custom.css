@@ -54,12 +54,16 @@
 }
 
 .titlebar-buttonbox-container {
-  width: 32px;
+  width: 28px;
 }
 
 .titlebar-buttonbox-container .titlebar-buttonbox {
   height: 28px;
   width: 28px;
+}
+
+.titlebar-buttonbox-container .titlebar-buttonbox .titlebar-close {
+  border-radius: 0 !important;
 }
 
 #nav-bar-customization-target {
@@ -69,4 +73,3 @@
 #nav-bar-customization-target > toolbaritem {
   height: 28px !important;
 }
-
