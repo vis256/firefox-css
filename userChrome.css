@@ -35,10 +35,10 @@ Here you can change the opacity level and the main color of the browser. Also th
 */
 
 :root {
-  --srf-color-primary: #f4ded4;
+  --srf-color-primary: rgb(255, 214, 215);
   --srf-color-selection: #a9d9d2;
   --toolbar-bgcolor: #f3c8c7;
-  --urlbar-bgcolor: #f4ded4;
+  --urlbar-bgcolor: rgb(255, 235, 236);
   --text-color: #2c2c2c;
   --input-color: #2c2c2c !important;
   --toolbar-color: #2c2c2c !important;
