@@ -27,6 +27,12 @@ See the above repository for updates as well as full license text. */
   transition: left var(--sidebar-animation-duration) ease-in-out !important;
 }
 
+#sidebar #webextpanels-window {
+  min-width: var(--sidebar-hover-width) !important;
+  width: var(--sidebar-hover-width) !important;
+  max-width: var(--sidebar-hover-width) !important;
+}
+
 #sidebar-title {
   display: none;
 }
